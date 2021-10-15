@@ -29,11 +29,59 @@ class MainActivity : AppCompatActivity() {
 //            val intent = Intent(this, ~~~~(kt파일)::class.java)
 //            startActivity(intent)
 
-            val intent = Intent(this, sample_Activity2::class.java)
+            val intent = Intent(this, sample2_Activity::class.java)
             startActivity(intent)
-
-
         }
-//        2
+
+//        🍀110. 7개 image들의 이름 만들고, 각각 클릭때, 다른 activity로 이동
+        val image2 = findViewById<ImageView>(R.id.bts_image_2)
+        val image3 = findViewById<ImageView>(R.id.bts_image_3)
+        val image4 = findViewById<ImageView>(R.id.bts_image_4)
+        val image5 = findViewById<ImageView>(R.id.bts_image_5)
+        val image6 = findViewById<ImageView>(R.id.bts_image_6)
+        val image7 = findViewById<ImageView>(R.id.bts_image_7)
+
+        image2.setOnClickListener {
+            Toast.makeText(this, "number 2 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample3_Activity::class.java)
+            startActivity(intent)
+        }
+
+        image3.setOnClickListener {
+            Toast.makeText(this, "number 3 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample4_Activity::class.java)
+            startActivity(intent)
+        }
+
+        image4.setOnClickListener {
+            Toast.makeText(this, "number 4 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample5_Activity::class.java)
+            startActivity(intent)
+        }
+
+        image5.setOnClickListener {
+            Toast.makeText(this, "number 5 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample6_Activity::class.java)
+            startActivity(intent)
+        }
+
+        image6.setOnClickListener {
+            Toast.makeText(this, "number 6 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample7_Activity::class.java)
+            startActivity(intent)
+        }
+
+        image7.setOnClickListener {
+            Toast.makeText(this, "number 7 click" , Toast.LENGTH_SHORT).show()
+
+            val intent = Intent(this, sample8_Activity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

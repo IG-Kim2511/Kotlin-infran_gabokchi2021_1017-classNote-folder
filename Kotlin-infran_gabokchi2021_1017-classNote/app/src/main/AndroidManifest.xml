@@ -10,7 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlininfran_gabokchi2021_1017classNotefolder">
         <activity
-            android:name=".sample_Activity2"
+            android:name=".sample8_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample7_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample6_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample5_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".sample2_Activity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
