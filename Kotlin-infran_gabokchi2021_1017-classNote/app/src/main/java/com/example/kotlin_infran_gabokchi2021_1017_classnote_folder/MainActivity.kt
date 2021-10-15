@@ -16,8 +16,10 @@ class MainActivity : AppCompatActivity() {
 
         image1.setOnClickListener {
 //            Toast.makeText(, "", Toast.LENGTH_SHORT).show()
-                        Toast.makeText(, "gge", Toast.LENGTH_SHORT).show()
-//            Toast.makeText(this, text:"number 1 click" , Toast.LENGTH_SHORT).show()
+
+            Toast.makeText(this, "number 1 click" , Toast.LENGTH_SHORT).show()
+
+//            Toast.makeText(, "number 1", Toast.LENGTH_SHORT).show()
         }
 //        2
     }
